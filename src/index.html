@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Betting 31"
+})
+
+<body>
+	@@include('html/_preloader.htm',{})
+	<div class="wrapper">
+		<div class="wrapper__main main">
+			<div class="main__body">
+				<div class="main__content">
+					<div class="main__lobby">
+						<div class="main__header header-main">
+							<div class="header-main__body">
+								<div class="header-main__score-box score-box">
+									<div class="score-box__body">
+										<div class="score-box__title">Ballance</div>
+										<div class="score-box__score score">0</div>
+									</div>
+								</div>
+								<button type="button" data-button="shop"
+									class="header-main__button button _red-line _fz-25"><span>Shop</span></button>
+							</div>
+						</div>
+						<div class="main__buttons">
+							<div class="main__image-box">
+								<img src="@img/game/ball-2.png" alt="Image">
+							</div>
+							<button type="button" data-button="game"
+								class="main__button button _red-line _fz-48"><span>Play</span></button>
+						</div>
+					</div>
+					<div class="main__shop shop">
+						<div class="shop__body">
+							<div class="shop__header header-shop">
+								<div class="header-shop__body">
+									<div class="header-shop__center-box">
+										<div class="header-shop__score-box score-box _v2-gray-bd">
+											<div class="score-box__body">
+												<div class="score-box__title">Ballance</div>
+												<div class="score-box__score score">0</div>
+											</div>
+										</div>
+									</div>
+									<div class="header-shop__button-back button _fz-20">
+										<span>Menu</span>
+									</div>
+								</div>
+							</div>
+							<div class="shop__items">
+								<div data-subject="3" class="shop__item shop__item_3">
+									<div class="shop__item-inner shop__item-inner_3">
+										<div class="shop__image">
+											<div class="shop__image-inner"><img src="@img/game/ball-3.png" alt="Image"></div>
+										</div>
+										<div data-price="3" class="shop__price">0</div>
+										<div data-shop-button="3" class="shop__button button"><span>Buy</span></div>
+									</div>
+								</div>
+								<div data-subject="2" class="shop__item shop__item_2">
+									<div class="shop__item-inner shop__item-inner_2">
+										<div class="shop__image">
+											<div class="shop__image-inner"><img src="@img/game/ball-2.png" alt="Image"></div>
+										</div>
+										<div data-price="2" class="shop__price">0</div>
+										<div data-shop-button="2" class="shop__button button"><span>Buy</span></div>
+									</div>
+								</div>
+								<div data-subject="1" class="shop__item shop__item-inner_1">
+									<div class="shop__item-inner shop__item-inner_1">
+										<div class="shop__image">
+											<div class="shop__image-inner"><img src="@img/game/ball-1.png" alt="Image"></div>
+										</div>
+										<div data-price="1" class="shop__price">0</div>
+										<div data-shop-button="1" class="shop__button button"><span>Buy</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
